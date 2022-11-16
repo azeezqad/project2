@@ -17,6 +17,7 @@ html{
 }
 body {
   font-family: "Work Sans" sans-serif;
+  direction: rtl;
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
 .special-heading {
   font-size: 100px;
   font-weight: 800;
-  color: #ebeced;
+  color: #c5c6c7;
   text-align: center;
   margin: 0;
   letter-spacing: -3px;
@@ -312,6 +313,7 @@ header .links ul li:not(:last-child) {
 
 .portfolio .portfolio-content .card img {
   max-width: 100%;
+  width: 341px;
   border-radius: 8px;
 }
 
@@ -478,3 +480,23 @@ footer span{
 }
 /* <!-- End footer  --> */
 
+.info1{
+  direction: rtl;
+  background-color: #ed332a;
+  padding: 20px;
+  }
+  .content1{
+    text-align: center;
+  }
+  
+  .info1 li{
+    list-style: number;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .info1 li i{
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  
